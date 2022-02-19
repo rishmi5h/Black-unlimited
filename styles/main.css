@@ -1,1 +1,19 @@
 @import url(https://sigma-ui.netlify.app/styles/main.css);
+
+@import "./variables.css";
+
+* {
+  /* outline: 1px solid red; */
+}
+
+.logo {
+  width: 3rem;
+  padding: 1rem;
+  border: 1px solid var(--white);
+  text-decoration: none;
+  font-size: large;
+}
+
+.logo:hover {
+  color: var(--primary-color);
+}
