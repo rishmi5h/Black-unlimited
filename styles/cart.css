@@ -1,0 +1,21 @@
+.cart-img {
+  max-width: 13rem;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.cart-price-details {
+  border: 2px solid var(--white);
+  border-radius: 10px;
+}
+
+.btn {
+  box-shadow: none;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
