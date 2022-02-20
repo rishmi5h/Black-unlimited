@@ -1,6 +1,13 @@
 .card {
   box-shadow: none;
+}
+
+.vertical-card {
   max-width: 17.5rem;
+}
+.horizontal-card {
+  max-width: 28rem;
+  border-radius: 0.625rem;
 }
 
 .card:hover {
@@ -19,6 +26,10 @@
 .horizontal {
   background-color: inherit;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
   justify-content: space-between;
 }
 
