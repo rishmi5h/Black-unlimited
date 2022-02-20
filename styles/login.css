@@ -9,7 +9,7 @@
   margin: auto;
   flex-direction: column;
   justify-content: center;
-  border: 0.187rem solid var(--primary-color);
+  border: 0.125rem solid var(--primary-color);
   border-radius: 0.625rem;
   padding: 3rem;
 }
