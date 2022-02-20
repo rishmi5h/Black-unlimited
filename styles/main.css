@@ -9,6 +9,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .logo {
   width: 3rem;
   padding: 1rem;
@@ -18,7 +19,7 @@ html {
   border-radius: 6px;
 }
 
-.input-field {
+nav .input-field {
   box-shadow: none;
 }
 .logo:hover {
@@ -44,4 +45,9 @@ html {
 
 .hero .btn:active {
   box-shadow: 5px 5px 5px var(--shadow-grey);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
