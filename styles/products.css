@@ -1,0 +1,18 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas: "filters items items items items";
+}
+
+.sidebar {
+  grid-area: filters;
+  /* border: 1px solid var(--white); */
+  border-radius: 6px;
+}
+
+.content {
+  grid-area: items;
+  display: flex;
+  flex-wrap: wrap;
+}

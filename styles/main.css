@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+i {
+  background-color: inherit;
+}
+
 .logo {
   width: 3rem;
   padding: 1rem;
