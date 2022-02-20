@@ -2,12 +2,12 @@
 
 @import "./variables.css";
 
-* {
-  /* outline: 1px solid red; */
-}
-
 html {
   scroll-behavior: smooth;
+}
+
+i {
+  background-color: inherit;
 }
 
 .logo {
