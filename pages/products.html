@@ -9,13 +9,12 @@
       content="Black Unlimited - Your One Stop Destination for Black Color Apparels."
     />
     <meta name="author" content="Rishabh Mishra" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/login.css" />
-    <title>Black Unlimited | Login</title>
+    <title>Black Unlimited | Products</title>
     <script
       src="https://kit.fontawesome.com/2e19b7c0b2.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <nav>
@@ -24,7 +23,9 @@
           <a class="logo" href="../index.html"> BU </a>
         </button>
       </div>
-
+      <div class="search">
+        <input type="search" class="input-field" placeholder="Search" />
+      </div>
       <div class="nav-section nav-icons">
         <a class="link-no-style" href="https://404first.netlify.app/"
           ><i class="fas fa-shopping-bag nav-section-items"></i>
@@ -33,45 +34,13 @@
         <a class="link-no-style" href="https://404first.netlify.app/"
           ><i class="fas fa-heart nav-section-items"></i
         ></a>
-        <a class="link-no-style" href=""
+        <a class="link-no-style" href="./pages/login.html"
           ><i class="far fa-user-circle nav-section-items"></i
         ></a>
       </div>
     </nav>
-    <main class="m-t-4">
-      <div class="login-card">
-        <h1 class="text-center">Login</h1>
-        <div class="column m-t-4">
-          <label for="email" class="text-start m-b-1 text-grey">Email</label>
-          <input
-            type="email"
-            class="input-field"
-            id="email"
-            name="email"
-            placeholder="jon.doe@gmail.com"
-          />
-        </div>
-        <div class="column m-t-4">
-          <label for="password" class="text-start m-b-1 text-grey"
-            >Password</label
-          >
-          <input
-            type="password"
-            class="input-field"
-            id="password"
-            name="password"
-            placeholder="Enter your password"
-          />
-        </div>
-        <div class="m-t-4 text-center">
-          <button class="btn primary-btn">Log in</button>
-        </div>
-        <p class="text-center m-t-4 text-grey">
-          Dont have an account? <a href="./signup.html">Sign Up</a>
-        </p>
-      </div>
-    </main>
-    <footer class="text-center m-t-4 login-footer">
+
+    <footer class="text-center m-t-4">
       Made with ❤️ by
       <a
         class="link-no-style"

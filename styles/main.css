@@ -1,1 +1,53 @@
 @import url(https://sigma-ui.netlify.app/styles/main.css);
+
+@import "./variables.css";
+
+* {
+  /* outline: 1px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 3rem;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  font-size: large;
+  border-radius: 6px;
+}
+
+nav .input-field {
+  box-shadow: none;
+}
+.logo:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  min-height: 92vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .btn {
+  box-shadow: 12px 12px 16px 0 var(--shadow-grey),
+    -8px -8px 12px 0 var(--shadow-black);
+}
+.hero .btn:hover {
+  box-shadow: none;
+}
+
+.hero .btn:active {
+  box-shadow: 5px 5px 5px var(--shadow-grey);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
